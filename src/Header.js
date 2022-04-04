@@ -1,5 +1,9 @@
 import React from "react";
 import "./Header.css";
+import SearchIcon from '@mui/icons-material/Search';
+import LanguageIcon from "@mui/icons-material/Language";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 const Header = () => {
   return (
@@ -12,7 +16,14 @@ const Header = () => {
 
       <div className="header-center">
         <input type="text" />
-        
+        <SearchIcon />
+      </div>
+
+      <div className="header-right">
+        <p>Become a host</p>
+        <LanguageIcon />
+        <KeyboardArrowDownIcon />
+        <AccountCircleIcon />
       </div>
     </div>
   );
