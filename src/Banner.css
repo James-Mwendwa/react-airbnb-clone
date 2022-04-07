@@ -10,7 +10,7 @@
     padding-top: 25vh;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 33px;
     width: 300px;
 }
 
@@ -37,6 +37,7 @@
 .banner-search {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 
 }
 
